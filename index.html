@@ -85,6 +85,11 @@
   <audio id="backgroundMusic" src="assets/music.mp3" loop></audio>
 
 <script>
+  const messages = ["ChickenLongNguyen chúc chị em !"];
+  const colors = ["white"];
+  const dialog = document.getElementById("startDialog");
+  const audio = document.getElementById("backgroundMusic");
+
   const messages = ["20/10 thật là vui vẻ nhaaa !"];
   const colors = ["white"];
   const dialog = document.getElementById("startDialog");
@@ -112,7 +117,7 @@
 
     setTimeout(() => {
       popup.remove();
-    }, 50000);
+    }, 99999);
   }
 
   function startPopups(count) {
