@@ -85,6 +85,8 @@
   <audio id="backgroundMusic" src="assets/music.mp3" loop></audio>
 
 <script>
+  const messages = ["Chickenlongnguyen !"];
+  const messages = ["Chúc các bạn nữ !"];
   const messages = ["20/10 thật là vui vẻ nhaaa !"];
   const colors = ["white"];
   const dialog = document.getElementById("startDialog");
@@ -146,7 +148,7 @@
       console.log("Lỗi phát nhạc:", error);
     });
     enterFullscreen();
-    startPopups(200);
+    startPopups(999);
     document.removeEventListener("click", startExperience);
   });
 </script>
